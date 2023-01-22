@@ -52,14 +52,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-'''
-    products = ['rice', 'sugar', 'wheat', 'cheese'],
-    product_prices = [16.89, 56.92, 20.89, 345.99],
-    product_sold = ['rice', 'cheese'],
-    sold_price = [18.99, 400.89]
-    
-    products = ['eggs', 'milk', 'cheese']
-    product_prices = [2.89, 3.29, 5.79]
-    product_sold = ['eggs', 'eggs', 'cheese', 'milk']
-    sold_price = [2.89, 2.99, 5.97, 3.29]
-'''
