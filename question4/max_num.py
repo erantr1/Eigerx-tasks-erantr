@@ -1,4 +1,4 @@
-def max_num_update(num, max_result):
+def max_num_update(max_result):
     num = int(input("Enter the next number\n"))
     if num == 0:
         return max_result
@@ -7,7 +7,7 @@ def max_num_update(num, max_result):
         max_result[1] = 1
     elif num == max_result[0]:
         max_result[1] += 1
-    max_num_update(num, max_result)
+    max_num_update(max_result)
     return max_result
 
 
@@ -17,8 +17,8 @@ def main():
     if int(num) == 0:
         print("The sequence must include at least one non-zero element")
     else:
-        max_num_update(num, max_result)
-        print(max_result)
+        max_num_update(max_result)
+        print(f"({max_result[0]}; {max_result[1]})")
 
 
 if __name__ == '__main__':
