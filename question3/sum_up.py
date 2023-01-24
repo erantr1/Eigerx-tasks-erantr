@@ -1,10 +1,7 @@
 def sum_up(num):
-    sum_of_digits = 0
-    if num//10 > 0:
-        sum_of_digits += sum_up(num//10) + num % 10
-    else:
-        sum_of_digits += num % 10
-    return sum_of_digits
+    if num//10 == 0:
+        return num % 10
+    return sum_up(num//10) + num % 10
 
 
 def main():
