@@ -29,8 +29,6 @@ def main():
         max_counter = 1
         max_result, max_counter = max_num_update(max_result, max_counter)
         print(f"({max_result}; {max_counter})")
-        #print(f"({';'.join(str(elem) for elem in max_result)})")
-        # The print above is rather ugly, but so is this alternative: print(f"({max_result[0]}; {max_result[1]})")
 
 
 if __name__ == '__main__':
